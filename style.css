@@ -7,7 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* mobile */
+/* Mobile Adjustments - will display webpage vertically */
 .header {
   display: grid;
   grid-template-columns: 1fr;
@@ -38,7 +38,7 @@ img {
   height: auto;
 }
 
-/* Desktop Adjustments */
+/* Desktop Adjustments - will display webpage horizontally! */
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
