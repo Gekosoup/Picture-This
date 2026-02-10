@@ -7,7 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Mobile Adjustments - will display webpage vertically */
+/* Mobile Adjustments - will display webpage vertically when sized down to screen sizes 960px or lower! */
 .header {
   display: grid;
   grid-template-columns: 1fr;
@@ -38,7 +38,7 @@ img {
   height: auto;
 }
 
-/* Desktop Adjustments - will display webpage horizontally! */
+/* Desktop Adjustments - will display webpage horizontally when widened to screen sizes 960px or higher! */
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
